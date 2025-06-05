@@ -56,13 +56,13 @@ Correct! A product master record can have several plant views. This allows you t
 
 Correct! The Company Code and the Segment belong to Financial Accounting in the enterprise structure.
 
-### Which of the following objects are used to structure the business processes in SAP S/4HANA?
+### **Which of the following objects are used to structure the business processes in SAP S/4HANA?**
 
-- Plant
+- **Plant**
 
-- Client
+- **Client**
 
-- Distribution Channel
+- **Distribution Channel**
 
 Correct! Plant, Client and Distribution Channel are objects of the enterprise structure. They are used to organize the business processes in SAP S/4HANA.
 
@@ -428,3 +428,23 @@ Plant-Storage location combination
 - SAP user
 
 - Business partner (employee)
+
+### What is the impact of posting a supplier's invoice?
+
+- The purchase order history is updated.
+
+-  An open Item for the supplier is created.
+
+- A logistics invoice document is created.
+
+###What happens during the settlement of a production order?
+
+- The WIP calculated is settled to Financial Accounting.
+
+- The price difference is posted to Financial Accounting.
+
+###What are the necessary enterprise structures used in production?
+
+- Work Center
+
+- Plant

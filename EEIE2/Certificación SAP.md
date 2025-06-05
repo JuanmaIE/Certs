@@ -28,7 +28,7 @@
 - Purchase Requisition  
 - Schedule Line  
   
-## 7. Which values need to be settled to Financial Accounting and Margin Analysis during settlement of a production order? (3 answers)  
+## 7. Which values need to  be settled to Financial Accounting and Margin Analysis during settlement of a production order? (3 answers)  
   
 - Work in progress  
 - Price differences  
@@ -127,7 +127,7 @@
 ## 26. Which BP roles are the result of creating a Customer for Accounts Receivable? (2 answers)  
   
 - FI customer  
-- General date  
+- General data  
   
 ## 27. When extending a business partner's sales area data, which business partner role should be used?  
   
