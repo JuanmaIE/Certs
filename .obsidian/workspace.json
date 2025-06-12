@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b407316eecfc86c",
+            "id": "b79a533b4c331014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EEIE2/Test EEI2E (Respuestas).md",
+                "file": "Reunión 120525.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test EEI2E (Respuestas)"
-            }
-          },
-          {
-            "id": "c09189a8ff9a33a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Test"
-            }
-          },
-          {
-            "id": "fb17d06012422b5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C_FIORD 2502/Test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Test"
+              "title": "Reunión 120525"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c7d52354203065af",
@@ -209,9 +181,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb17d06012422b5a",
+  "active": "b79a533b4c331014",
   "lastOpenFiles": [
-    "Test.md",
+    "Captura de pantalla 2025-06-12 103802.png",
+    "Reunión 120525.md",
+    "AWS Essentials/Test.md",
+    "Github Foundations/Test.md",
+    "AWS Foundations",
+    "GF (Linkdn Learning).md",
     "C_FIORD 2502/Test.md",
     "C_FIORD 2502",
     "EEIE2/Test EEI2E (Respuestas).md",

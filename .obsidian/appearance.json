@@ -1,1 +1,7 @@
-{}
+{
+  "theme": "moonstone",
+  "baseFontSize": 22,
+  "cssTheme": "Things",
+  "baseFontSizeAction": true,
+  "nativeMenus": false
+}
