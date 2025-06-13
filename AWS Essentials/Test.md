@@ -419,3 +419,232 @@ The other response options are incorrect because:
 
 ---
 
+### Which statement best describes an AWS account’s default network access control list?
+
+It is stateless and denies all inbound and outbound traffic.
+
+It is stateful and allows all inbound and outbound traffic.
+
+- It is stateless and allows all inbound and outbound traffic.
+
+It is stateful and denies all inbound and outbound traffic.
+
+The correct response option is **It is stateless and allows all inbound and outbound traffic**.
+
+Network access control lists (ACLs) perform **stateless** packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
+
+Each AWS account includes a default network ACL. When configuring your VPC, you can use your account’s default network ACL or create custom network ACLs.
+
+By default, your account’s default network ACL allows all inbound and outbound traffic, but you can modify it by adding your own rules. For custom network ACLs, all inbound and outbound traffic is denied until you add rules to specify which traffic should be allowed. Additionally, all network ACLs have an explicit deny rule. This rule ensures that if a packet doesn’t match any of the other rules on the list, the packet is denied.
+
+  
+
+**Learn more:**
+
+- [Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+
+---
+
+### Which statement best describes DNS resolution?
+
+Launching resources in a virtual network that you define
+
+Storing local copies of content at edge locations around the world
+
+Connecting a VPC to the internet
+
+- Translating a domain name to an IP address
+
+The correct response option is **Translating a domain name to an IP address**.
+
+For example, if you want to visit AnyCompany’s website, you enter the domain name into your PC and this request is sent to a DNS server. Next, the DNS server asks the web server for the IP address that corresponds to AnyCompany’s website. The web server responds by providing the IP address for AnyCompany’s website, 192.0.2.0.
+
+  
+
+**Learn more:**
+
+- [Amazon Route 53](https://aws.amazon.com/route53/)
+
+---
+
+### Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+
+Place the Amazon EC2 instances in a private subnet and the Amazon RDS database instances in a public subnet.
+
+- Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+
+Place the Amazon EC2 instances and the Amazon RDS database instances in a public subnet.
+
+Place the Amazon EC2 instances and the Amazon RDS database instances in a private subnet.
+
+The correct response option is **Place the Amazon EC2 instances in a public subnet and the Amazon RDS databases instances in a private subnet**.
+
+A **subnet** is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.
+
+Public subnets contain resources that need to be accessible by the public, such as an online store’s website.
+
+Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories.
+
+  
+
+**Learn more:**
+
+- [Amazon VPC(opens in a new tab)](https://aws.amazon.com/vpc)
+- [VPCs and subnets](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html)
+
+### Which component can be used to establish a private dedicated connection between your company’s data center and AWS?
+
+Private subnet
+
+DNS
+
+- AWS Direct Connect
+
+Virtual private gateway
+
+The correct response option is **AWS Direct Connect**.
+
+The other response options are incorrect because:
+
+- A private subnet is a section of a VPC in which you can group resources that should be accessed only through your private network. Although it is private, it is not used for establishing a connection between a data center and AWS.
+- DNS stands for Domain Name System, which is a directory used for matching domain names to IP addresses.
+- A virtual private gateway enables you to create a VPN connection between your VPC and a private network, such as your company’s data center. Although this connection is private and encrypted, it travels through the public internet, not through a dedicated connection.
+
+**Learn more:**
+
+- [AWS Direct Connect](https://aws.amazon.com/directconnect)
+
+### Which statement best describes security groups?
+
+- They are stateful and deny all inbound traffic by default.
+
+They are stateful and allow all inbound traffic by default.
+
+They are stateless and deny all inbound traffic by default.
+
+They are stateless and allow all inbound traffic by default.
+
+The correct response option is **Security groups are stateful and deny all inbound traffic by default**.
+
+  
+
+Security groups are stateful. This means that they use previous traffic patterns and flows when evaluating new requests for an instance.
+
+  
+
+By default, security groups deny all inbound traffic, but you can add custom rules to fit your operational and security needs.
+
+  
+
+**Learn more:**
+
+- [Security groups for your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
+
+### Which component is used to connect a VPC to the internet?
+
+Public subnet
+
+Edge location
+
+Security group
+
+- Internet gateway
+
+The correct response option is **I****nternet gateway.**
+
+  
+ The other response options are incorrect because:
+
+- A public subnet is a section of a VPC that contains public-facing resources.
+- An edge location is a site that Amazon CloudFront uses to store cached copies of your content for faster delivery to customers.
+- A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+
+**Learn more:**
+
+- [Internet gateways](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)
+
+### Which service is used to manage the DNS records for domain names?
+
+Amazon Virtual Private Cloud
+
+AWS Direct Connect
+
+Amazon CloudFront
+
+- Amazon Route 53
+
+The correct response option is **Amazon Route 53**.
+
+Amazon Route 53 is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications that host in AWS.
+
+  
+
+Another feature of Route 53 is the ability to manage the DNS records for domain names. You can transfer DNS records for existing domain names managed by other domain registrars. You can also register new domain names directly in Route 53.
+
+  
+
+The other response options are incorrect because:
+
+- Amazon Virtual Private Cloud (Amazon VPC) is a service that enables you to provision an isolated section of the AWS Cloud. In this isolated section, you can launch resources in a virtual network that you define.
+- AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and VPC.  
+- Amazon CloudFront is a content delivery service. It uses a network of edge locations to cache content and deliver content to customers all over the world.
+
+**Learn more:**
+
+- [Amazon Route 53](https://aws.amazon.com/route53)
+
+---
+
+### Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
+
+- Best for data that requires retention <>
+    
+- Best for temporary data that is not kept long term
+    
+- Separate drives from the host computer of an EC2 instance <>
+    
+- Physically attached to the host computer of an EC2 instance
+    
+- Data is deleted when an EC2 instance is stopped
+
+---
+
+### You want to store data that is infrequently accessed but must be immediately available when needed. Which Amazon S3 storage class should you use?
+
+S3 Intelligent-Tiering
+
+S3 Glacier Deep Archive
+
+- S3 Standard-IA
+
+S3 Glacier Flexible Retrieval
+
+The correct response option is **S3 Standard-IA**.
+
+The S3 Standard-IA storage class is ideal for data that is infrequently accessed but requires high availability when needed. Both S3 Standard and S3 Standard-IA store data in a minimum of three Availability Zones. S3 Standard-IA provides the same level of availability as S3 Standard but at a lower storage price.
+
+The other response options are incorrect because:
+
+- In the S3 Intelligent-Tiering storage class, Amazon S3 monitors objects’ access patterns. If you haven’t accessed an object for 30 consecutive days, Amazon S3 automatically moves it to the infrequent access tier, S3 Standard-IA. If you access an object in the infrequent access tier, S3 automatically moves it to the frequent access tier, S3 Standard.
+- S3 Glacier Flexible Retrieval and S3 Glacier Deep Archive are low-cost storage classes that are ideal for data archiving. They would not be the best choice for this scenario, which requires high availability. You can retrieve objects stored in the S3 Glacier Flexible Retrieval storage class within a few minutes to a few hours. By comparison, you can retrieve objects stored in the S3 Glacier Deep Archive storage class within 12 hours.
+
+---
+
+### What are the scenarios in which you should use Amazon Relational Database Service (Amazon RDS)? (Select TWO.)
+
+- Running a serverless database
+    
+- Using SQL to organize data <>
+    
+- Storing data in a key-value database
+    
+- Scaling up to 10 trillion requests per day
+    
+- Storing data in an Amazon Aurora database <>
+
+The two correct response options are:
+
+- Using SQL to organize data
+- Storing data in an Amazon Aurora database
+
+The other three response options are scenarios in which you should use Amazon DynamoDB.

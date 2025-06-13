@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reunión 120525.md",
+                "file": "AWS Essentials/Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reunión 120525"
+              "title": "Test"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c7d52354203065af",
@@ -183,12 +182,14 @@
   },
   "active": "b79a533b4c331014",
   "lastOpenFiles": [
-    "Captura de pantalla 2025-06-12 103802.png",
-    "Reunión 120525.md",
+    "SOA/Morabanc+ACX 120525/Reunión 120525.md",
+    "SOA/Morabanc+ACX 120525",
     "AWS Essentials/Test.md",
+    "SOA",
+    "SOA/Morabanc+ACX 120525/Captura de pantalla 2025-06-12 103802.png",
+    "GF (Linkdn Learning).md",
     "Github Foundations/Test.md",
     "AWS Foundations",
-    "GF (Linkdn Learning).md",
     "C_FIORD 2502/Test.md",
     "C_FIORD 2502",
     "EEIE2/Test EEI2E (Respuestas).md",
